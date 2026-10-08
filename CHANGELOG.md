@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.7.8](https://github.com/OnonokiYotsuki/override-rules/compare/src-v2.7.7...src-v2.7.8) (2026-10-08)
+
+
+### Bug Fixes
+
+- Claude 相关域名优先走 AI服务 ([ed020f3](https://github.com/OnonokiYotsuki/override-rules/commit/ed020f3aaa37f636bd73c5c652e72dcae85945ff))
 ## [2.7.7](https://github.com/OnonokiYotsuki/override-rules/compare/src-v2.7.6...src-v2.7.7) (2026-10-08)
 
 
