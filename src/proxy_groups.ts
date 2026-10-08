@@ -118,7 +118,8 @@ export function buildProxyGroups({
             name: PROXY_GROUPS.AI_SERVICE,
             icon: `${CDN_URL}/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png`,
             type: "select",
-            proxies: defaultProxies,
+            // 原策略组在前，订阅节点紧随其后，便于直接指定 AI 出口。
+            proxies: [...new Set([...defaultProxies, ...allNodes])],
         },
         {
             name: PROXY_GROUPS.CRYPTO,

@@ -1,6 +1,8 @@
 /*!
-powerfullz 的 Substore 订阅转换脚本
-https://github.com/powerfullz/override-rules
+OnonokiYotsuki 基于 powerfullz/override-rules 的 Substore 订阅转换脚本
+上游：https://github.com/powerfullz/override-rules
+
+定制：AI服务策略组在原有策略之后直接列出全部节点。
 
 支持的传入参数：
 - grouptype: 地区代理组类型（0=select 手动选择, 1=url-test 自动测速, 2=load-balance 负载均衡，默认 0）
